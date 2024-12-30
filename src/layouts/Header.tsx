@@ -1,7 +1,6 @@
 import {
     Header as ThemeHeader,
     NavLink,
-    NavDropdown
 } from '../theme/html5up-arcana';
 
 export const Header = () => {
@@ -9,11 +8,10 @@ export const Header = () => {
         <ThemeHeader>
             <NavLink href='/' current>Home</NavLink>
             <NavLink href='https://wiki.waukeshamakers.com/About'>About</NavLink>
-            <NavDropdown label='Membership'>
-                <NavLink href='https://wiki.waukeshamakers.com/Participation/Join'>How to Join</NavLink>
-                <NavLink href='https://wiki.waukeshamakers.com/Participation/Benefits'>Member Benefits</NavLink>
-                <NavLink href='https://wiki.waukeshamakers.com/Participation/Expectations'>Expectations & Responsibilities</NavLink>
-            </NavDropdown>
+            <NavLink href='https://wiki.waukeshamakers.com/Participation/Join'>Join</NavLink>
+            <NavLink href='https://wiki.waukeshamakers.com'>WIKI</NavLink>
+            <NavLink href='#contact'>Contact</NavLink>
+            <NavLink href='https://wiki.waukeshamakers.com/FAQ'>FAQ</NavLink>
         </ThemeHeader>
     );
 };
